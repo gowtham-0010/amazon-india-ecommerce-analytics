@@ -1,0 +1,30 @@
+﻿# Data files
+data/raw/*
+data/interim/*
+data/processed/*
+*.csv
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+.Python
+venv/
+env/
+amazon/  # <-- your venv name, safe to ignore
+
+# Jupyter
+.ipynb_checkpoints
+
+# PowerBI
+*.pbix.tmp
+
+# MySQL
+*.sql.backup
+
+# IDE
+.vscode/
+.idea/
+
+# Keep README files
+!data/*/README.md

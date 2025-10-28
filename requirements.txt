@@ -1,0 +1,21 @@
+﻿# Core Data Processing
+pandas==2.1.0
+numpy==1.24.3
+
+# Visualization for EDA
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Database
+pymysql==1.1.0
+sqlalchemy==2.0.20
+mysql-connector-python==8.1.0
+
+# Data Cleaning
+python-dateutil==2.8.2
+
+# Development
+jupyter==1.0.0
+
+# Utilities
+openpyxl==3.1.2
