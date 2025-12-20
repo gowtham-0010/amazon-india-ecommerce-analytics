@@ -1,0 +1,98 @@
+# Python
+amazon/
+
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data files (large, ignore raw)
+
+
+# Database
+*.db
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+
+# Cache
+.cache/
+*.cache
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Reports (outputs)
+reports/*.html
+reports/*.pdf
+
+# Visuals (generated)
+visuals/*.png
+visuals/*.jpg
+visuals/*.pdf
+
+# Temporary files
+*.tmp
+*.bak
+*.temp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Keep these:
+!data/.gitkeep
+!cleaned_data/.gitkeep
+!reports/.gitkeep
+!visuals/.gitkeep
